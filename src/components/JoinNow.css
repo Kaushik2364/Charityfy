@@ -1,0 +1,23 @@
+/* joinusnow.css */
+
+/* Optional animation or shadow override */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles if needed */
+.join-card {
+  @apply bg-white rounded-2xl shadow-xl p-8 max-w-4xl w-full;
+}
+
+.join-heading {
+  @apply text-center text-4xl font-bold text-yellow-500 mb-8;
+}
+
+.join-input {
+  @apply rounded-lg border border-gray-300 p-3 focus:outline-none focus:ring-2 focus:ring-yellow-400;
+}
+
+.join-button {
+  @apply bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-8 rounded-full transition duration-300;
+}

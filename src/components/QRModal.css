@@ -1,0 +1,32 @@
+.qr-modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .qr-modal {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .qr-image {
+    width: 250px;
+    margin: 20px 0;
+  }
+  
+  .close-btn {
+    background-color: #ff7f50;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

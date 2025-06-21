@@ -1,0 +1,51 @@
+.events-container {
+  padding: 60px 20px;
+  background: #fdfdfd;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.events-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.events-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 25px;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+}
+
+.event-card h2 {
+  font-size: 22px;
+  color: #d62828;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 15px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.event-desc {
+  font-style: italic;
+  color: #333;
+  margin-top: 10px;
+}
